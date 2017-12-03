@@ -2,7 +2,11 @@
 [![Gitter](https://img.shields.io/gitter/room/authorization-team/node_js.svg)](https://gitter.im/authorization-team/node_js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![GNU General Public License v3.0](https://img.shields.io/github/license/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/blob/master/LICENSE)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![Build Status](https://img.shields.io/travis/authorization-team/authorization/master.svg)](https://travis-ci.org/authorization-team/authorization)
+[![bitHound Dependencies](https://img.shields.io/bithound/dependencies/github/authorization-team/authorization.svg)](https://www.bithound.io/github/authorization-team/authorization/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://img.shields.io/bithound/dependencies/github/authorization-team/authorization.svg)](https://www.bithound.io/github/authorization-team/authorization/master/dependencies/npm)
+[![bitHound Overall Score](https://www.bithound.io/github/authorization-team/authorization/badges/score.svg)](https://www.bithound.io/github/authorization-team/authorization)
 [![Coveralls Status](https://img.shields.io/coveralls/github/authorization-team/authorization/master.svg)](https://coveralls.io/github/authorization-team/authorization?branch=master)
 
 [![GitHub issues](https://img.shields.io/github/issues/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/issues)
