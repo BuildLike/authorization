@@ -1,0 +1,54 @@
+{
+  "name": "authorization",
+  "version": "1.0.0",
+  "description": "Simplify your authorizations",
+  "main": "src/index.js",
+  "bin": "./bin/authorization.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/authorization-team/authorization.git"
+  },
+  "scripts": {
+    "coverage": "xo --reporter ./src/eslint-formatter-lcov.js | coveralls",
+    "test": "xo && nyc mocha"
+  },
+  "keywords": [
+    "authorization"
+  ],
+  "author": {
+    "name": "Authorization"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/authorization-team/authorization/issues"
+  },
+  "homepage": "https://github.com/authorization-team/authorization#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "cross-spawn": "^5.1.0",
+    "debug": "^3.1.0",
+    "inquirer": "^4.0.1",
+    "json5": "^0.5.1",
+    "lodash": "^4.17.4",
+    "progress": "^2.0.0",
+    "request": "^2.83.0",
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {
+    "bithound": "^1.7.0",
+    "coveralls": "^3.0.0",
+    "cross-env": "^5.1.1",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "xo": "*"
+  },
+  "xo": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
