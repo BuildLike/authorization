@@ -1,4 +1,6 @@
 # Authorization (for Node.js)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/authorization-team/authorization.svg)](https://greenkeeper.io/)
 [![Gitter](https://img.shields.io/gitter/room/authorization-team/node_js.svg)](https://gitter.im/authorization-team/node_js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![GNU General Public License v3.0](https://img.shields.io/github/license/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/blob/master/LICENSE)
