@@ -1,6 +1,6 @@
 {
   "name": "nodejs-authorization",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Simplify your authorizations",
   "main": "lib/index.js",
   "bin": {
