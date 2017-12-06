@@ -1,16 +1,22 @@
 {
-  "name": "authorization",
+  "name": "nodejs-authorization",
   "version": "1.0.0",
   "description": "Simplify your authorizations",
-  "main": "src/index.js",
-  "bin": "./bin/authorization.js",
+  "main": "lib/index.js",
+  "bin": {
+    "authorization": "./bin/authorization.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/authorization-team/authorization.git"
   },
   "scripts": {
-    "coverage": "xo --reporter ./src/eslint-formatter-lcov.js | coveralls",
-    "test": "xo && nyc mocha"
+    "bithound": "bithound check git@github.com:authorization-team/authorization.git",
+    "codacy-coverage": "xo --reporter './lib/eslint-formatter-lcov.js' | codacy-coverage",
+    "coverage": "xo --reporter './lib/eslint-formatter-lcov.js' | coveralls",
+    "greenkeeper-lockfile-update": "greenkeeper-lockfile-update",
+    "greenkeeper-lockfile-upload": "greenkeeper-lockfile-upload",
+    "test": "xo"
   },
   "keywords": [
     "authorization"
@@ -22,11 +28,12 @@
   "bugs": {
     "url": "https://github.com/authorization-team/authorization/issues"
   },
-  "homepage": "https://github.com/authorization-team/authorization#readme",
+  "homepage": "https://github.com/authorization-team/authorization/blob/master/README.md",
   "dependencies": {
     "async": "^2.6.0",
     "bluebird": "^3.5.1",
     "chalk": "^2.3.0",
+    "codacy-coverage": "^2.0.3",
     "commander": "^2.12.2",
     "cross-spawn": "^5.1.0",
     "debug": "^3.1.0",
@@ -41,9 +48,8 @@
     "bithound": "^1.7.0",
     "coveralls": "^3.0.0",
     "cross-env": "^5.1.1",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0",
-    "xo": "*"
+    "greenkeeper-lockfile": "^1.12.0",
+    "xo": "^0.18.2"
   },
   "xo": {
     "globals": [
