@@ -1,13 +1,9 @@
-# Authorization (for Node.js)
+# Authorization for Node.js
 
 [![Gitter](https://img.shields.io/gitter/room/authorization-team/node_js.svg)](https://gitter.im/authorization-team/node_js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 [![GNU General Public License v3.0](https://img.shields.io/github/license/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/blob/master/LICENSE)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-[![Build Status](https://travis-ci.org/authorization-team/authorization.svg?branch=master)](https://travis-ci.org/authorization-team/authorization)
-[![Coverage Status](https://coveralls.io/repos/github/authorization-team/authorization/badge.svg?branch=master)](https://coveralls.io/github/authorization-team/authorization?branch=master)
-[![bitHound Dependencies](https://www.bithound.io/github/authorization-team/authorization/badges/dependencies.svg)](https://www.bithound.io/github/authorization-team/authorization/master/dependencies/npm)
-[![Greenkeeper badge](https://badges.greenkeeper.io/authorization-team/authorization.svg)](https://greenkeeper.io/)
 
 [![GitHub issues](https://img.shields.io/github/issues/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/pulls)
@@ -27,4 +23,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-## Table of Contents
+## Usage
+```node
+const authorization = require('@authorization/full');
+```
