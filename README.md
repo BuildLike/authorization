@@ -4,7 +4,6 @@
 
 [![GNU General Public License v3.0](https://img.shields.io/github/license/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/blob/master/LICENSE)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-
 [![GitHub issues](https://img.shields.io/github/issues/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/authorization-team/authorization.svg)](https://github.com/authorization-team/authorization/pulls)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/authorization-team/authorization.svg?columns=all)](https://waffle.io/authorization-team/authorization)
@@ -24,6 +23,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ## Usage
-```node
+```javascript
 const authorization = require('@authorization/full');
 ```

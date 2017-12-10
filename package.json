@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/authorization-team/authorization/blob/master/README.md",
   "dependencies": {
+    "@authorization/client": "^0.x",
+    "@authorization/server": "^0.x",
     "debug": "^3.x"
   },
   "devDependencies": {
